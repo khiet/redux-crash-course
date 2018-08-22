@@ -43,6 +43,9 @@ const mapStateToProps = state => ({
   newPost: state.posts.item
 });
 
+// Your mapDispatchToProps functions are expected to return an object.
+// Each fields of the object should be a function, calling which is expected to dispatch an action to the store.
+// https://react-redux.js.org/api/connect#returns-1
 const mapDispatchToProps = dispatch => {
   return {
     fetchPosts: () => dispatch(fetchPosts())
