@@ -4,7 +4,7 @@
 
 * Install necessary packages `npm install redux react-redux redux-thunk`
 * add [Provider to the main app](https://github.com/khiet/redux-crash-course/blob/master/src/App.js#L14) and set [store](https://github.com/khiet/redux-crash-course/blob/master/src/store.js#L11)
-* add [root reducer](https://github.com/khiet/redux-crash-course/blob/master/src/reducers/index.js#L1) and [reducer](https://github.com/khiet/redux-crash-course/blob/master/src/reducers/postReducer.js#L1)
+* add [root reducer](https://github.com/khiet/redux-crash-course/blob/master/src/reducers/index.js) and [reducer](https://github.com/khiet/redux-crash-course/blob/master/src/reducers/postReducer.js#L1) which gets combined into root reducer using [combineReducers](https://github.com/khiet/redux-crash-course/blob/master/src/reducers/index.js#L4)
 * [connect components with actions and reducers](https://github.com/khiet/redux-crash-course/blob/master/src/components/Posts.js#L52)
 * use shared [state](https://github.com/khiet/redux-crash-course/blob/master/src/components/Posts.js#L19) and [action](https://github.com/khiet/redux-crash-course/blob/master/src/components/Posts.js#L8)
 
